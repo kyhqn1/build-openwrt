@@ -24,6 +24,8 @@ sed -i 's/192.168.1.1/192.168.8.1/g' package/base-files/files/bin/config_generat
 #
 # Add luci-app-amlogic
 svn co https://github.com/ophub/luci-app-amlogic/trunk/luci-app-amlogic package/luci-app-amlogic
+svn co https://github.com/vernesong/OpenClash/tree/master/luci-app-openclash package/luci-app-openclash
+svn co https://github.com/xiaorouji/openwrt-passwall/tree/main/luci-app-passwall package/luci-app-passwall
 
 # coolsnowwolf default software package replaced with Lienol related software package
 # rm -rf feeds/packages/utils/{containerd,libnetwork,runc,tini}
